@@ -8,7 +8,7 @@ import numpy as np
 myheading1='California Housing Dataset'
 tabtitle = 'Cali Housing'
 sourceurl = 'https://github.com/ageron/handson-ml2/blob/master/02_end_to_end_machine_learning_project.ipynb'
-githublink = 'https://github.com/plotly-dash-apps/502-california-housing-regression'
+githublink = 'https://github.com/Prerana97/california-housing-regression'
 
 
 ########### open the pickle files ######
@@ -78,8 +78,8 @@ app.layout = html.Div(children=[
                     html.H6('Median Home Value (Predicted):'),
                     html.Button(children='Submit', id='submit-val', n_clicks=0,
                                     style={
-                                    'background-color': 'red',
-                                    'color': 'white',
+                                    'background-color': 'blue',
+                                    'color': 'black',
                                     'margin-left': '5px',
                                     'verticalAlign': 'center',
                                     'horizontalAlign': 'center'}
